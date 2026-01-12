@@ -55,8 +55,13 @@ const ContactFormSection = () => {
                       Île-de-France & régions limitrophes
                     </h3>
                     
-                    {/* Departments Grid */}
-                    <div className="bg-[#2d3a4f] rounded-xl p-4 sm:p-5 border border-slate-700/50">
+                    
+                    
+                  </div>
+                  
+                </div>
+                {/* Departments Grid */}
+                <div className="bg-[#2d3a4f] rounded-xl p-4 sm:p-5 border border-slate-700/50">
                       <div className="grid grid-cols-2 gap-x-4 gap-y-2 mb-3">
                         <div className="flex items-center gap-2">
                           <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
@@ -95,8 +100,6 @@ const ContactFormSection = () => {
                         Tous les départements d'Île-de-France couverts
                       </p>
                     </div>
-                  </div>
-                </div>
               </div>
             </div>
 
