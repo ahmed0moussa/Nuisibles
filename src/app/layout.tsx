@@ -23,6 +23,27 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:image" content="/images/og-image.jpg" />
         <meta property="og:url" content="https://attrapenuisibles.fr" />
         <meta name="twitter:card" content="summary_large_image" />
+         <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "Attrape Nuisibles Paris",
+                "image": "https://attrapenuisibles.fr/images/og-image.jpg",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Adresse exemple",
+                  "addressLocality": "Paris",
+                  "postalCode": "75000",
+                  "addressCountry": "FR"
+                },
+                "url": "https://attrapenuisibles.fr",
+                "telephone": "+33 6 12 34 56 78",
+                "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00"
+              })
+            }}
+          />
       </Head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
