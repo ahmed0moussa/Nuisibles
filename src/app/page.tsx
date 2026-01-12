@@ -11,27 +11,6 @@ import StickyCTA from "@/components/sections/sticky-cta";
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col overflow-x-hidden">
-      <Head>
-        <title>Attrape Nuisibles à Paris - Pièges professionnels</title>
-        <meta
-          name="description"
-          content="Découvrez nos solutions efficaces pour attraper les nuisibles à Paris. Pièges pour rats, souris et autres intrus."
-        />
-         <meta
-          name="google-site-verification"
-          content="NJAokNDF23vwURfXKEJDZ45XPQhbhR2ARPs73wehq_M"
-        />
-        <meta name="robots" content="index, follow" />
-        {/* Open Graph pour réseaux sociaux */}
-        <meta property="og:title" content="Attrape Nuisibles à Paris" />
-        <meta
-          property="og:description"
-          content="Solutions efficaces pour rats, souris et nuisibles à Paris."
-        />
-        <meta property="og:image" content="/images/og-image.jpg" />
-        <meta property="og:url" content="https://attrapenuisibles.fr" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Head>
 
       <Header />
       <main>
