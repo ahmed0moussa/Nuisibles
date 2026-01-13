@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield, Zap, CircleCheckBig, Users, Phone } from 'lucide-react';
+import Image from "next/image";
 
 const WhyChooseUs = () => {
   const benefits = [
@@ -29,10 +30,21 @@ const WhyChooseUs = () => {
     <section className="relative px-4 py-12 sm:py-16 overflow-hidden min-h-[500px]">
       {/* Background with Image and Dark Gradient Overlays */}
       <div className="absolute inset-0 z-0">
-          <img 
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/7f8b8070-f00e-409f-820a-d09e25a47a08-plum-pickle-85886130-figma-site/assets/images/bff0f756222fc633526df98cdccba172ef661d71-9.png" 
-            alt="Technicien ATTRAPES NUISIBLES en intervention" 
-            className="w-full h-full object-cover"
+          {/* Desktop Image */}
+          <Image
+            src="/images/why-choose-us-desktop.png"
+            alt="Technicien ATTRAPES NUISIBLES en intervention"
+            fill
+            priority
+            className="hidden md:block object-cover"
+          />
+
+          {/* Mobile Image */}
+          <Image
+            src="/images/why-choose-us.png"
+            alt="Technicien ATTRAPES NUISIBLES en intervention"
+            fill
+            className="block md:hidden object-cover"
           />
         {/* Multi-layered gradient overlay to match the high-level design and screenshots */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/75 to-black/60"></div>

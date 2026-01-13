@@ -6,7 +6,7 @@ const services = [
   {
     title: "Dératisation",
     description: "Élimination complète des rats et souris avec des méthodes professionnelles et sécurisées.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/7f8b8070-f00e-409f-820a-d09e25a47a08-plum-pickle-85886130-figma-site/assets/images/2444f0f622f98066c72907bdbd5db5e11dc48e5a-4.png",
+    image: "/images/deratisation.png",
     features: [
       "Inspection complète",
       "Appâts sécurisés",
@@ -17,7 +17,7 @@ const services = [
   {
     title: "Punaises de Lit",
     description: "Éradication totale des punaises de lit grâce à des traitements thermiques et chimiques ciblés.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/7f8b8070-f00e-409f-820a-d09e25a47a08-plum-pickle-85886130-figma-site/assets/images/b480fc28f58299081347438c7bbae123617b297d-5.png",
+    image: "/images/punaises-de-lit.png",
     features: [
       "Détection canine",
       "Traitement thermique",
@@ -28,7 +28,7 @@ const services = [
   {
     title: "Cafards & Blattes",
     description: "Traitement radical contre les cafards avec des produits professionnels longue durée.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/7f8b8070-f00e-409f-820a-d09e25a47a08-plum-pickle-85886130-figma-site/assets/images/63ef184643dcbdb924b6f960f77afbc405289272-6.png",
+    image: "/images/cafards-blattes.png",
     features: [
       "Gel anti-cafards",
       "Traitements ciblés",
@@ -39,7 +39,7 @@ const services = [
   {
     title: "Guêpes & Frelons",
     description: "Destruction sécurisée des nids de guêpes et frelons avec équipement professionnel.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/7f8b8070-f00e-409f-820a-d09e25a47a08-plum-pickle-85886130-figma-site/assets/images/0c5e05f211d45ee17732c06a2b2e99c0172d48f9-7.png",
+    image: "/images/guepes-frelons.png",
     features: [
       "Destruction nids",
       "Équipement sécurisé",
@@ -50,7 +50,7 @@ const services = [
   {
     title: "Désinfection",
     description: "Nettoyage et désinfection professionnelle des espaces pour éliminer germes et bactéries.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/7f8b8070-f00e-409f-820a-d09e25a47a08-plum-pickle-85886130-figma-site/assets/images/04c41b59508959427df20b26c77d60d0bad1837f-8.png",
+    image: "/images/desinfection.png",
     features: [
       "Surfaces complètes",
       "Virucides certifiés",

@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import React from 'react';
 import { Phone, MapPin, Clock, Shield, CircleCheckBig, Facebook } from 'lucide-react';
 
@@ -7,14 +7,15 @@ const HeroSection = () => {
   return (
     <section className="relative overflow-hidden min-h-screen flex items-center pt-20">
       {/* Background Image Container */}
-      <div className="absolute inset-0 z-0">
-        <img 
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/7f8b8070-f00e-409f-820a-d09e25a47a08-plum-pickle-85886130-figma-site/assets/images/47ab460c4008fb0f357d7dfc9cfb7d7713826d2f-2.png" 
+      <div className="absolute inset-0 z-0 ">
+        <Image
+          src="/images/hero-background2.png"
           alt="Professionnel en intervention anti-nuisibles" 
+          fill
           className="w-full h-full object-cover"
         />
         {/* Dark Overlay as per visual instructions and computed styles */}
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-black/30"></div>
       </div>
 
       {/* Content Container */}
@@ -64,15 +65,18 @@ const HeroSection = () => {
             Urgent Appelez-nous
           </a>
 
-          {/* Certification Logos */}
-          <div className="flex items-center justify-center gap-2 mt-10">
-            <img 
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/7f8b8070-f00e-409f-820a-d09e25a47a08-plum-pickle-85886130-figma-site/assets/images/f88d97cae4d0b31a8e67ea7b3d2a8a601d5319c0-3.png" 
-              alt="CERTIBIOCIDE Certification labels" 
+          
+        </div>
+        {/* Certification Logos */}
+          <div className="flex items-center justify-center sm:justify-end gap-2 mt-10">
+            <Image
+              src="/images/certification-logo.png"
+              width={140}   
+              height={50}
+              alt="CERTIBIOCIDE Certification labels"
               className="h-10 sm:h-16 w-auto opacity-95 brightness-110"
             />
           </div>
-        </div>
       </div>
 
       {/* Style Overrides for specific UI elements per high-level design */}
