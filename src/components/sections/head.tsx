@@ -8,7 +8,7 @@ export default function HeadComponent() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             name: "Attrape Nuisibles Paris",
-            image: "https://attrapenuisibles.fr/images/og-image.jpg",
+            image: "https://attrapenuisibles.fr/images/og-image.png",
             address: {
               "@type": "PostalAddress",
               streetAddress: "Adresse exemple",
